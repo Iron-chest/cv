@@ -1,0 +1,170 @@
+/*To underline a text use (text decoration) 
+Common inline elements:   common block elements:
+spans, images, anchors    paragraph, divs, h1-h6...*/
+
+/* To hide certain things:
+display: none
+visibility: hidden*/
+
+/* For the positioning of elements:
+Pasition : (relative), static, absolute(element is removed from the flow ), fixed(useful for navbar , sidebar, logos..)..*/
+
+/* For display to show behaviour or arrangement
+display : block, inline, inline-block...*/
+
+/* CSS  web safe fonts,  CSS Font stack, (Google Fonts)*/
+
+/* flat icons for pics, profile...*/ /* giphy for aminated pics or gifs */
+
+/* percentages % are very useful ( because it scales based on the size of the website*/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #4e756f;
+  background-color: #eaf6f6;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  color: #66bfbf;
+  font-family: "Sacramento", cursive;
+  font-size: 50px;
+}
+
+h2 {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #66bfbf;
+  font-size: 2.5rem;
+  font-weight: normal;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+hr {
+  border: dotted #8fb9b9 6px;
+  width: 10%;
+  border-bottom : none;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+ 
+}
+
+.top-container {
+  background: #eaf6f6;
+  position: relative;
+  padding-top: 150px;
+}
+
+.verse {
+  width: 25%;
+  border-radius: 100px;
+}
+
+.caption {
+  width: 50%;
+  margin: 100px auto 0 auto;
+}
+.intro {
+  width: 40%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 30%;
+  margin: 40px auto 60px;
+}
+
+.btn-text {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 1.2rem;
+}
+
+.btn {
+  background-color: #66bfbf;
+  border-radius: 8px;
+  padding: 10px;
+  outline: none;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #437577;
+}
+
+#image1 {
+  position: absolute;
+  right: 250px;
+  top: 5px;
+}
+
+#image2 {
+  position: absolute;
+  left: 100px;
+  bottom: 300px;
+}
+
+#image3 {
+  width: 50rem;
+}
+
+#img3 {
+  width: 25%;
+  border-radius: 100px;
+  float: left;
+  margin-right: 30px;
+}
+
+.img4 {
+  width: 25%;
+  border-radius: 100px;
+  float: right;
+  margin-left: 30px;
+}
+
+.middle-container {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.bottom-container {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.bottom {
+  background-color: #66bfbf;
+  padding: 20px;
+}
+
+.footer {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+ 
